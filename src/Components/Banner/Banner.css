@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=Poppins:wght@600&display=swap');
 .style-font{
  
     font-family: 'Heebo', sans-serif;
@@ -19,6 +19,10 @@
      margin-right: 10px;
      border-radius: 30px;
      border: 2px solid gray;
+}
+.primary-button1:hover{
+    background-color: blue;
+    color: white;
 }
 .secondary-button1:hover{
     background-color: gray;
