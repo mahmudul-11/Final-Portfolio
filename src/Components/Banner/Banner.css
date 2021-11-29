@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=Poppins&display=swap');
+.style-font{
+ 
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.primary-button1{
+    padding: 10px 20px;
+    color: black;
+     background-color: white; 
+     margin-right: 10px;
+     border-radius: 30px;
+     border: 2px solid blue;
+}
+.secondary-button1{
+    padding: 10px 20px;
+    color: black;
+     background-color: white; 
+     margin-right: 10px;
+     border-radius: 30px;
+     border: 2px solid gray;
+}
+.secondary-button1:hover{
+    background-color: gray;
+}
