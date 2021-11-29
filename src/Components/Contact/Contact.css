@@ -1,0 +1,20 @@
+input,textarea{
+    width: 100%;
+    line-height: 40px;
+    border-radius: 12px;
+   
+    
+}
+.contact-info{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 30px;
+    background-color: #22174B;
+    padding: 30px;
+    color: White;
+   
+}
+.form-style{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 30px;
+    background-color: #5B4CF0;
+}

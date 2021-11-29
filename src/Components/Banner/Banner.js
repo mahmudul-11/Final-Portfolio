@@ -17,12 +17,12 @@ const Banner = () => {
                         <p className='fs-4 fw-bold' style={{ color: 'gray' }} >Hi,  This is </p>
                         <h1 className='style-font fw-bolder fs-1'>Mahmudul Hasan</h1>
                         <div>
-                            <p style={{ textAlign: 'justify', fontWeight: 600, color: 'gray' }}>I am a Web developer. I prefer to with JavaScript. As a web developer, I normally use React.js as a front-end libray and Node.js as a back-end framework. I also work with Python programming language. Sometimes i used Django as a back-end framework. Artificial Intelligence is another field that interests me.</p>
+                            <p style={{ textAlign: 'justify', fontWeight: 500, color: 'gray' }}>I am a Web developer. I prefer to with JavaScript. As a web developer, I normally use React.js as a front-end libray and Node.js as a back-end framework. I also work with Python programming language. Sometimes i used Django as a back-end framework. Artificial Intelligence is another field that interests me.</p>
                         </div>
                         <div>
 
                             <Button className='primary-button1 my-2'> Download CV</Button>
-                            <Button className='secondary-button1 '> Contact Me</Button>
+                            <a className='btn secondary-button1 ' href='https://drive.google.com/file/d/1sgR1WWbYMYY80aDuT5uSY4a3Z30jDj8e/view?usp=sharing' > Contact Me</a>
                         </div>
                     </div>
                 </div>
