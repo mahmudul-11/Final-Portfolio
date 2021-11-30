@@ -1,10 +1,13 @@
 import React, { useEffect } from 'react';
+
 import { Button, Container } from 'react-bootstrap';
 import photo from '../../Images/profile.jpg'
 import './Banner.css'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import pdf from '../../PDF/Mahmudul Hasan_Resume.pdf'
+
+
 
 const Banner = () => {
     useEffect(() => {
@@ -22,13 +25,13 @@ const Banner = () => {
                 </div>
                 <div className="col-md-7 col-sm-12 col-xs-12">
                     <div className='m-1 mt-2 px-3 d-flex flex-column justify-content-end'>
-                        <p className='fs-4 fw-bold ' style={{ color: 'gray' }} >Hi,  This is </p>
+                        <p className='fs-4 fw-bold ' style={{ color: 'gray', }} >Hi,  This is </p>
                         <div data-aos="zoom-in" >
                             <h1 className='style-font fs-1' style={{ fontWeight: '900' }}>Mahmudul <span style={{ color: 'blue' }}> Hasan</span></h1>
                         </div>
 
                         <div>
-                            <p style={{ textAlign: 'justify', fontWeight: 500, color: 'gray' }}>I am a Web developer. I prefer to with JavaScript. As a web developer, I normally use React.js as a front-end libray and Node.js as a back-end framework. I also work with Python programming language. Sometimes i used Django as a back-end framework. Artificial Intelligence is another field that interests me.</p>
+                            <p style={{ textAlign: 'justify', fontWeight: 500, color: 'gray' }}>I am aWeb developer. I prefer to with JavaScript. As a web developer, I normally use React.js as a front-end libray and Node.js as a back-end framework. I also work with Python programming language. Sometimes i used Django as a back-end framework. Artificial Intelligence is another field that interests me.</p>
                         </div>
                         <div data-aos="zoom-out">
 

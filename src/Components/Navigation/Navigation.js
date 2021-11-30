@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar, Button } from 'react-bootstrap';
-import { HashLink } from 'react-router-hash-link';
+import { NavHashLink } from 'react-router-hash-link';
 import './Navigation.css'
 import logo from '../../Images/logo.png'
 
@@ -19,11 +19,15 @@ const Navigation = () => {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto fw-bolder">
-                                <Nav.Link href="#home">Home</Nav.Link>
-                                <Nav.Link href="#about">About</Nav.Link>
-                                <Nav.Link href="#contact">Contact</Nav.Link>
-                                <Nav.Link href="#about2">About</Nav.Link>
-                                <Nav.Link href="#about3">About</Nav.Link>
+                                <Nav.Link as={NavHashLink} to="/home" activeClassName="selected"
+                                    activeStyle={{ color: 'blue' }}>Home</Nav.Link>
+                                <Nav.Link as={NavHashLink} to="/about" activeClassName="selected"
+                                    activeStyle={{ color: 'blue' }}>About Me</Nav.Link>
+                                {/* <Nav.Link as={NavHashLink} to="/home#contact" activeClassName="selected"
+                                    activeStyle={{ color: 'blue' }}>Contact</Nav.Link> */}
+                                <Nav.Link as={NavHashLink} to="/blog" activeClassName="selected"
+                                    activeStyle={{ color: 'blue' }}>Blogs</Nav.Link>
+                                {/* <Nav.Link href="#about3">About</Nav.Link> */}
 
                             </Nav>
                         </Navbar.Collapse>

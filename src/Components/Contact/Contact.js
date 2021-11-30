@@ -16,7 +16,9 @@ const Contact = () => {
             'user_tK3QT4B5vNMoWQuKoeRHj')
             .then(res => {
                 alert("Messsage has been sent...!")
-                console.log(res)
+                console.log(res);
+                document.getElementsByClassName('inputField').value = '';
+
             })
             .catch(err => console.log(err))
     }
@@ -39,11 +41,11 @@ const Contact = () => {
                     </div>
                     <div className="col-md-6 col-sm-12 col-xs-12 form-style p-4">
                         <h3 className='text-center text-white'>Quick Message</h3>
-                        <form data-aos="zoom-in" onSubmit={sentEmail} >
-                            <input name='name' className='mb-2 mt-4 ' type='text' placeholder='Your Name' />
-                            <input name='email' className='mb-2 ' type='email' placeholder='Your Email' />
-                            <input name='subject' className='mb-2 ' type='text' placeholder='Subject' />
-                            <textarea name='message' className='mb-2' placeholder='Your Message' rows='5' />
+                        <form data-aos="zoom-in" onSubmit={sentEmail} id='contactForm'>
+                            <input name='name' className='mb-2 mt-4 inputField' type='text' placeholder='Your Name' defaultValue='' required />
+                            <input name='email' className='mb-2 inputField' type='email' placeholder='Your Email' defaultValue='' required />
+                            <input name='subject' className='mb-2 inputField' type='text' placeholder='Subject' defaultValue='' required />
+                            <textarea name='message' className='mb-2 inputField' placeholder='Your Message' rows='5' defaultValue='' required />
                             <input className='mb-2  contact-button1 ' type='submit' value='Send Message' />
                         </form>
 
