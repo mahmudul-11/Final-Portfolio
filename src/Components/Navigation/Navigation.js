@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 import './Navigation.css'
+import logo from '../../Images/logo.png'
 
 
 const Navigation = () => {
@@ -9,18 +10,24 @@ const Navigation = () => {
     return (
         <>
             <Navbar expand="lg">
-                <Container>
+                <Container className='d-flex justify-content-between'>
                     <Navbar.Brand href="#home">
-                        <img src="https://assets.website-files.com/5f204aba8e0f187e7fb85a87/5f210a533185e7434d9efcab_hero%20img.jpg" alt="" width='80' />
+                        <img src={logo} alt="" width='80' />
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#link">Link</Nav.Link>
 
-                        </Nav>
-                    </Navbar.Collapse>
+                    <div>
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Collapse id="basic-navbar-nav">
+                            <Nav className="me-auto fw-bolder">
+                                <Nav.Link href="#home">Home</Nav.Link>
+                                <Nav.Link href="#about">About</Nav.Link>
+                                <Nav.Link href="#contact">Contact</Nav.Link>
+                                <Nav.Link href="#about2">About</Nav.Link>
+                                <Nav.Link href="#about3">About</Nav.Link>
+
+                            </Nav>
+                        </Navbar.Collapse>
+                    </div>
                 </Container>
             </Navbar>
 
@@ -29,3 +36,4 @@ const Navigation = () => {
 };
 
 export default Navigation;
+

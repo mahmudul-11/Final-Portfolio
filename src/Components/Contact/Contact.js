@@ -21,7 +21,7 @@ const Contact = () => {
             .catch(err => console.log(err))
     }
     return (
-        <div>
+        <div id='contact' className='mt-5'>
             <div>
                 <h1 className='text-center ' style={{ fontSize: '55px', fontWeight: '900' }}> Contact <span style={{ color: 'blue' }}>Me</span></h1>
             </div>
@@ -38,6 +38,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="col-md-6 col-sm-12 col-xs-12 form-style p-4">
+                        <h3 className='text-center text-white'>Quick Message</h3>
                         <form data-aos="zoom-in" onSubmit={sentEmail} >
                             <input name='name' className='mb-2 mt-4 ' type='text' placeholder='Your Name' />
                             <input name='email' className='mb-2 ' type='email' placeholder='Your Email' />

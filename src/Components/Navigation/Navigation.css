@@ -17,3 +17,6 @@
     height: 30px;
     border-radius: 50%;
 }
+.active:active {
+    color: red;
+  }
