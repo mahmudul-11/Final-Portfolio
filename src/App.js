@@ -5,6 +5,7 @@ import About from './Components/About/About';
 import Banner from './Components/Banner/Banner';
 import Blogs from './Components/Blogs/Blogs';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 import HomePage from './Components/HomePage/HomePage';
 import Navigation from './Components/Navigation/Navigation';
 import ProjectSection from './Components/ProjectSection/ProjectSection';
@@ -29,6 +30,7 @@ function App() {
             <HomePage />
           </Route>
         </Switch>
+        <Footer></Footer>
       </BrowserRouter>
 
 
