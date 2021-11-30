@@ -31,7 +31,7 @@ const Banner = () => {
                         </div>
 
                         <div>
-                            <p style={{ textAlign: 'justify', fontWeight: 500, color: 'gray' }}>I am aWeb developer. I prefer to with JavaScript. As a web developer, I normally use React.js as a front-end libray and Node.js as a back-end framework. I also work with Python programming language. Sometimes i used Django as a back-end framework. Artificial Intelligence is another field that interests me.</p>
+                            <p style={{ textAlign: 'justify', fontWeight: 500, color: 'gray' }}>I am a web developer. I prefer to work with JavaScript. As a web developer, I normally use React.js as a front-end library and Node.js as a back-end framework. I also work with Python programming language. Sometimes I used Django as a back-end framework. Artificial Intelligence is another field that interests me.</p>
                         </div>
                         <div data-aos="zoom-out">
 

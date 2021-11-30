@@ -1,0 +1,9 @@
+.small-card{
+    background-color: rgba(0, 0, 0, 0.299);
+    color: white;
+    border-radius: 10px;
+    
+}
+small-card h6{
+    font-weight: 700;
+}
