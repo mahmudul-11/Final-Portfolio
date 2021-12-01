@@ -5,6 +5,7 @@ import p3 from '../../Images/projects/3.png';
 import './ProjectSection.css'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom';
 
 const ProjectSection = () => {
     useEffect(() => {
@@ -27,8 +28,12 @@ const ProjectSection = () => {
                             <h5 className='text-center text-white fw-bolder'> Niche Business"Bike Store"</h5>
                             <p className='mt-2 text-center text-white'>Using this site you can order your favourit bike and also manage your orders using dashboard.</p>
                             <div className='d-flex justify-content-evenly pb-2'>
+                                <Link to={'/product/1'}>
+                                    <button className='btn btn-warning px-4'>Details</button>
+                                </Link>
+
                                 <a href="https://bike-store-12.web.app/" className='btn btn-warning'>Live Site</a>
-                                <a href="https://github.com/mahmudul-11/niche-market-bike-store-front-end" className='btn btn-warning px-4'>Code</a>
+
                             </div>
                         </div>
 
@@ -43,8 +48,11 @@ const ProjectSection = () => {
                             <h5 className='text-center text-white fw-bolder'> Tourism  Related"Traveling World"</h5>
                             <p className='mt-2 text-center text-white'>Users are able to book their desire tour package and manage their orders using this web application</p>
                             <div className='d-flex justify-content-evenly pb-2'>
+                                <Link to={'/product/2'}>
+                                    <button className='btn btn-warning px-4'>Details</button>
+                                </Link>
                                 <a href="https://assignment-11-86bbc.web.app/" className='btn btn-warning'>Live Site</a>
-                                <a href="https://github.com/mahmudul-11/Tourism-Related-website-front-end" className='btn btn-warning px-4'>Code</a>
+
                             </div>
                         </div>
 
@@ -59,8 +67,11 @@ const ProjectSection = () => {
                             <h5 className='text-center text-white fw-bolder'> Intensive Care Hospital</h5>
                             <p className='mt-2 text-center text-white'>This is an healthcare related organisation's advertisement type website. Here all services are shown up.</p>
                             <div className='d-flex justify-content-evenly pb-2'>
+                                <Link to={'/product/3'}>
+                                    <button className='btn btn-warning px-4'>Details</button>
+                                </Link>
                                 <a href="https://healthcare-c8687.web.app/" className='btn btn-warning'>Live Site</a>
-                                <a href="https://github.com/mahmudul-11/healthcare-basic-react" className='btn btn-warning px-4'>Code</a>
+
                             </div>
                         </div>
 

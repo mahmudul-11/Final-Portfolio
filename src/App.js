@@ -8,6 +8,7 @@ import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import HomePage from './Components/HomePage/HomePage';
 import Navigation from './Components/Navigation/Navigation';
+import ProjectDetails from './Components/ProjectDetails/ProjectDetails';
 import ProjectSection from './Components/ProjectSection/ProjectSection';
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path='/blog'>
             <Blogs />
+          </Route>
+          <Route path='/product/:id'>
+            <ProjectDetails />
           </Route>
           <Route exact path='/'>
             <HomePage />
