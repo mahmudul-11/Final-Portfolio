@@ -16,14 +16,14 @@ const Banner = () => {
     return (
         <Container className='mt-5' id='home'>
             <div className="row">
-                <div className="col-md-5 col-sm-12 col-xs-12 ">
+                <div className="col-md-5 col-sm-12 col-xs-12 new-class">
                     <div id='banner1' className='m-1 text-primary d-flex justify-content-end' data-aos="fade-right"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine">
                         <img src={photo} alt="" width='250' style={{ borderRadius: '50%', border: '10px solid #C1D3D2' }} />
                     </div>
                 </div>
-                <div className="col-md-7 col-sm-12 col-xs-12">
+                <div className="col-md-7 col-sm-12 col-xs-12 new-class">
                     <div className='m-1 mt-2 px-3 d-flex flex-column justify-content-end'>
                         <p className='fs-4 fw-bold ' style={{ color: 'gray', }} >Hi,  This is </p>
                         <div data-aos="zoom-in" >
