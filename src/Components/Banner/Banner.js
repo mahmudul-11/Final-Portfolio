@@ -13,6 +13,8 @@ const Banner = () => {
     useEffect(() => {
         Aos.init({ duration: 2000 })
     }, [])
+
+
     return (
         <Container className='mt-5' id='home'>
             <div className="row">
