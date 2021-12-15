@@ -20,7 +20,9 @@ const Contact = () => {
                 document.getElementsByClassName('inputField').value = '';
 
             })
-            .catch(err => console.log(err))
+            .catch(err => alert(err.message))
+
+        e.target.reset();
     }
     return (
         <div id='contact' className='mt-5'>
